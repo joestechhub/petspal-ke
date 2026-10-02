@@ -1,0 +1,31 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Become a pal — Pets Pal Nairobi</title><meta name="description" content="Earn walking, sitting and caring for pets in Nairobi. Apply on WhatsApp."><link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Mono:wght@400;700&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet"></head>
+<body>
+<div class="topbar"><div class="wrap"><span>Earn 25k–80k/month · Nairobi</span><span><span id="apiStatus">● checking…</span></span></div></div>
+<header class="site"><div class="wrap nav">
+<a class="logo" href="index.html"><span class="mark"><img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=160&q=60" alt="Happy dog"></span><span>Pets Pal<small>NAIROBI · KENYA</small></span></a>
+<nav class="nav-links" id="navLinks"><a href="services.html">Services</a><a href="find-help.html">Find help</a><a href="become.html">Become a pal</a><a href="trust.html">Trust</a><a href="contact.html">Contact</a></nav>
+<div class="nav-cta"><button class="btn small light" id="langBtn">SW</button><a class="btn small primary" href="book.html">WhatsApp us</a><button class="btn small light mobile-toggle" id="menuBtn">☰</button></div></div></header>
+<main class="wrap">
+<section><div class="kicker">KAZI</div>
+<h1 style="font-size:clamp(34px,4.5vw,52px)">Earn with the pets</h1>
+<p style="color:var(--muted);max-width:620px">Walkers, sitters, vets, groomers. You set your estates + hours — we send the jobs on WhatsApp. Keep 85%.</p>
+<div class="tiers" style="margin-top:18px">
+<div class="tier"><img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=800&q=65" alt="Dogs out on a walk" loading="lazy"><div class="bd"><h3>Open pals</h3><p style="font-size:14px;color:var(--muted)">Anyone 18+ who loves animals. Walking, sitting, daycare, taxi.</p><ul><li>ID + selfie + 2 references</li><li>1-day Pet First Aid (we train)</li><li>Keep 85% · M-Pesa payout</li></ul></div></div>
+<div class="tier"><img src="https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=800&q=65" alt="Vet examining a dog" loading="lazy"><div class="bd"><h3>Pro specialists ⭐</h3><p style="font-size:14px;color:var(--muted)">Vets (KVB licence), trainers, groomers.</p><ul><li>Licence / certificate verified</li><li>Higher rates + home-visit badge</li><li>SOS priority jobs</li></ul></div></div>
+</div>
+<div class="calc"><label for="jobsRange"><strong>Earnings calculator</strong> — <span id="jobsLabel">5 jobs / week</span></label><input type="range" id="jobsRange" min="1" max="20" value="5"><output id="earnOut">KES 15,300 / month</output><br><small>Avg KES 900/job · 4 weeks · after 15% desk fee. Asante!</small></div>
+<div class="booking" style="margin-top:16px"><h3>Apply on WhatsApp — 1 minute</h3>
+<p style="font-size:14px;color:var(--muted)">Fill this, tap send. We reply with next steps + vetting.</p>
+<div class="search-grid" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px">
+<div class="field"><label for="aName">Your name</label><input id="aName" placeholder="e.g. Njeri"></div>
+<div class="field"><label for="aPhone">Your phone</label><input id="aPhone" placeholder="0712…"></div>
+<div class="field"><label for="aRole">I want</label><select id="aRole"><option value="pal">Open pal</option><option value="pro">Pro specialist</option></select></div>
+</div>
+<button class="btn primary" id="applyBtn" style="margin-top:12px">Apply on WhatsApp →</button>
+<p id="applyOut" role="status" style="font-size:14px"></p></div>
+</section>
+</main>
+<footer><div class="wrap foot-grid"><div><strong>Pets Pal</strong><p style="font-size:13px">WhatsApp 0743 634 581</p></div><div><a href="index.html">Home</a></div><div><a href="trust.html">Trust</a></div><div><a href="contact.html">Contact</a></div></div></footer>
+<script src="app.js"></script></body></html>
