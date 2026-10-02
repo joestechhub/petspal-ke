@@ -52,7 +52,7 @@ function renderPals(filter="all"){
   const el = $("#palList"); if(!el) return;
   const q = ($("#palSearch")?.value||"").toLowerCase();
   const list = PALS.filter(p => (filter==="all"||p.type===filter) && (!q || p.name.toLowerCase().includes(q) || p.area.toLowerCase().includes(q)));
-  el.innerHTML = list.length ? list.map(palCard).join('') : `<div role="status" class="booking"><strong>No pals found.</strong><br><span style="color:#6B6560">Try “Kilimani”, “vet” or clear filters. SOS urgent care is always on: 0800-PETSKENYA.</span></div>`;
+  el.innerHTML = list.length ? list.map(palCard).join('') : `<div role="status" class="booking"><strong>No pals found.</strong><br><span style="color:#6B6560">Try “Kilimani”, “vet” or clear filters. SOS urgent care is always on: AST Kenya.</span></div>`;
   bindBookButtons();
 }
 
