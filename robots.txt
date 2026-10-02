@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://petspal.dpdns.org/sitemap.xml
